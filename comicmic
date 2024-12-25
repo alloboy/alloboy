@@ -1,0 +1,108 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2d94e; /* Background color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #3ea15d; /* Header background color */
+  text-align: front ;
+  padding: 20px 0;
+}
+
+.header .logo img {
+  max-width: 150px;
+}.header .design {
+  background-color: #F8D345;
+  display:inlin-block;
+  height: 90px;
+  width: 180px;
+  margin: 20px auto;
+  border: 10px solid #F8D345;
+
+}
+.header.desing {
+  width:15000px;
+ }
+
+
+
+
+/* Blog Section */
+.blog-section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Grid layout for responsive design */
+  gap: 20px;
+  margin: 20px auto;
+}
+
+.blog-block {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: auto; /* Allow the block to grow dynamically */
+}
+
+.blog-block img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.blog-block p {
+  margin-top: 10px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5; /* Add spacing for better readability */
+  word-wrap: break-word; /* Prevent text overflow */
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #1C935B; /* Footer background color */
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:-70%;
+}
+
+.footer-content img {
+  height:550px;
+  width: 390px;
+  margin-bottom:-20px;
+  margin-Top:-20px;
+}
+
+.footer-content p {
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 1.5;
+  transform: translateY(500%);
+}
+
+
